@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/lightGallery.css" />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>bootstrap</title>
+  </head>
+  <body
+    class="overflow-x-hidden"
+    data-bs-spy="scroll"
+    data-bs-target="#navbarNav"
+  >
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body shadow-sm py-4 sticky-top"
+      id="navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand fs-2 text-primary" href="#">coding school</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon fs-2"></span> -->
+          <i class="fa-solid fa-bars text-primary fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fs-5 text-center">
+            <li class="nav-item me-3">
+              <a class="nav-link active" aria-current="page" href="#header"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#about_us">about</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#protfolio">protfolio</a>
+            </li>
+            <li class="nav-item me-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-link" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Another action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#"
+                    >Something else here</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- header -->
+    <header id="header" class="position-relative">
+      <div class="container position-relative h-100 d-flex align-items-center">
+        <div>
+          <h3 class="display-5" data-aos="fade-right" data-aos-duration="1000">
+            welcom to <span class="text-primary">coding school</span>
+          </h3>
+          <h6
+            class="fs-3 text-muted"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            this web app uses bootstrap and sass
+          </h6>
+
+          <div class="container">
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Basic outlined example"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <button type="button" class="btn btn-outline-primary px-4 m-3">
+                get started
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-primary px-4 m-3"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                apply with us
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-primary px-4 m-3"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModalcontact"
+              >
+                contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- end header -->
+    <!-- about us -->
+    <section id="about_us" class="bg-section py-5">
+      <div class="container text-center">
+        <div>
+          <span
+            class="title-before text-uppercase mb-3 px-3 text-primary rounded-pill d-inline-block"
+            >about</span
+          >
+          <h3 class="display-6">
+            find more <span class="text-primary">about us</span>
+          </h3>
+          <p class="text-secondary">
+            this app was created by
+            <span class="text-primary">eng/emad ezzat</span> you can contact me
+            by clicking on "contact us" button
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div
+            class="col-lg-6 mb-3 mb-lg-0"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <img src="./img/about.jpg" class="img-fluid" alt="" />
+          </div>
+          <div
+            class="col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <h4>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
+              impedit.
+            </h4>
+            <p class="mt-3 fst-italic">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate facere, vel illum explicabo sint similique.
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex">
+                <div
+                  class="bg-body shadow flex-shrink-0 rounded-circle icon-container d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-book-open fs-3 text-primary"></i>
+                </div>
+                <div>
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus, ratione.
+                  </h5>
+                </div>
+              </li>
+              <li class="d-flex mt-4">
+                <div
+                  class="bg-body shadow flex-shrink-0 rounded-circle icon-container d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-book-open fs-3 text-primary"></i>
+                </div>
+                <div>
+                  <h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus, ratione.
+                  </h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about us -->
+    <!-- progress -->
+    <div id="progress" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="d-flex justify-content-between mb-2">
+              <b>HTML</b>
+              <b><span class="inner-text">0</span>%</b>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Default striped example"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar progress-bar-striped"></div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="d-flex justify-content-between mb-2">
+              <b>CSS</b>
+              <b><span class="inner-text">0</span>%</b>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Default striped example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar progress-bar-striped"></div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="d-flex justify-content-between mb-2">
+              <b>javascript</b>
+              <b><span class="inner-text">0</span>%</b>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Default striped example"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar progress-bar-striped"></div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="d-flex justify-content-between mb-2">
+              <b>bottstrap</b>
+              <b><span class="inner-text">0</span>%</b>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Default striped example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar progress-bar-striped"></div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="d-flex justify-content-between mb-2">
+              <b>sass</b>
+              <b><span class="inner-text">0</span>%</b>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Default striped example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar progress-bar-striped"></div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="d-flex justify-content-between mb-2">
+              <b>react</b>
+              <b><span class="inner-text">0</span>%</b>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Default striped example"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar progress-bar-striped"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end progress -->
+    <!-- counter -->
+    <div id="counter" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+            <div class="bg-section p-5 text-center position-relative">
+              <div
+                class="icon bg-primary d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 start-50 translate-middle"
+              >
+                <i class="fa-solid fa-face-smile-beam text-light fs-3"></i>
+              </div>
+              <h3 data-counter="110" class="counter">0</h3>
+              <h4 class="text-capitalize">happy clients</h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+            <div class="bg-section p-5 text-center position-relative">
+              <div
+                class="icon bg-primary d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 start-50 translate-middle"
+              >
+                <i class="fa-solid fa-book text-light fs-3"></i>
+              </div>
+              <h3 data-counter="450" class="counter">0</h3>
+              <h4 class="text-capitalize">projects</h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+            <div class="bg-section p-5 text-center position-relative">
+              <div
+                class="icon bg-primary d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 start-50 translate-middle"
+              >
+                <i class="fa-solid fa-headset text-light fs-3"></i>
+              </div>
+              <h3 data-counter="2700" class="counter">0</h3>
+              <h4 class="text-capitalize">hours of support</h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+            <div class="bg-section p-5 text-center position-relative">
+              <div
+                class="icon bg-primary d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 start-50 translate-middle"
+              >
+                <i class="fa-solid fa-user-group text-light fs-3"></i>
+              </div>
+              <h3 data-counter="72" class="counter">0</h3>
+              <h4 class="text-capitalize">hard workers</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end counter -->
+    <!-- clients -->
+    <div class="py-5 bg-section" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container text-center">
+        <h2 class="text-capitalize text-primary">our parteners</h2>
+        <div class="row">
+          <div class="p-5 col-6 col-lg-2 col-md-4">
+            <img src="./img/clients/client-1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="p-5 col-6 col-lg-2 col-md-4">
+            <img src="./img/clients/client-2.png" alt="" class="img-fluid" />
+          </div>
+          <div class="p-5 col-6 col-lg-2 col-md-4">
+            <img src="./img/clients/client-3.png" alt="" class="img-fluid" />
+          </div>
+          <div class="p-5 col-6 col-lg-2 col-md-4">
+            <img src="./img/clients/client-4.png" alt="" class="img-fluid" />
+          </div>
+          <div class="p-5 col-6 col-lg-2 col-md-4">
+            <img src="./img/clients/client-5.png" alt="" class="img-fluid" />
+          </div>
+          <div class="p-5 col-6 col-lg-2 col-md-4">
+            <img src="./img/clients/client-6.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end clients -->
+    <!-- services -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <span
+            class="title-before text-uppercase mb-3 px-3 text-primary rounded-pill d-inline-block"
+            >services</span
+          >
+          <h3 class="display-6">
+            check our <span class="text-primary">services</span>
+          </h3>
+          <p class="text-secondary">
+            this app was created by
+            <span class="text-primary">eng/emad ezzat</span> you can contact me
+            by clicking on "contact us" button
+          </p>
+        </div>
+      </div>
+      <div class="mt-4 row">
+        <div
+          class="col-md-6 col-lg-4 col-xl-3 mb-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="icon-box p-5 shadow position-relative text-center">
+            <div class="overlay position-absolute top-100 bg-primary"></div>
+            <i class="fa-solid fa-computer fs-1 text-primary"></i>
+            <h4 class="my-3 fw-bold">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              neque?
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-lg-4 col-xl-3 mb-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="icon-box p-5 shadow position-relative text-center">
+            <div class="overlay position-absolute top-100 bg-primary"></div>
+            <i class="fa-solid fa-house-laptop fs-1 text-primary"></i>
+            <h4 class="my-3 fw-bold">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              neque?
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-lg-4 col-xl-3 mb-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
+          <div class="icon-box p-5 shadow position-relative text-center">
+            <div class="overlay position-absolute top-100 bg-primary"></div>
+            <i class="fa-solid fa-database fs-1 text-primary"></i>
+            <h4 class="my-3 fw-bold">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              neque?
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-lg-4 col-xl-3 mb-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+        >
+          <div class="icon-box p-5 shadow position-relative text-center">
+            <div class="overlay position-absolute top-100 bg-primary"></div>
+            <i class="fa-solid fa-microchip fs-1 text-primary"></i>
+            <h4 class="my-3 fw-bold">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              neque?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end services -->
+    <!-- slider -->
+    <div class="slider pt-5 pb-2 position-relative">
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <img
+                src="./img/testimonials/testimonials-1.jpg"
+                class="d-block mx-auto rounded-circle"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <img
+                src="./img/testimonials/testimonials-2.jpg"
+                class="d-block mx-auto rounded-circle"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <img
+                src="./img/testimonials/testimonials-3.jpg"
+                class="d-block mx-auto rounded-circle"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- end slider -->
+    <!-- protfolio -->
+    <section class="py-5" id="protfolio">
+      <div class="container">
+        <div class="text-center">
+          <span
+            class="title-before text-uppercase mb-3 px-3 text-primary rounded-pill d-inline-block"
+            >protfolio</span
+          >
+          <h3 class="display-6">
+            check our <span class="text-primary">protfolio</span>
+          </h3>
+          <p class="text-secondary">
+            this app was created by
+            <span class="text-primary">eng/emad ezzat</span> you can contact me
+            by clicking on "contact us" button
+          </p>
+        </div>
+        <ul
+          class="list-group list-group-horizontal justify-content-center text-capitalize"
+        >
+          <li class="list-group-item active" data-filter="all">all</li>
+          <li class="list-group-item" data-filter="app">app</li>
+          <li class="list-group-item" data-filter="photo">photo</li>
+          <li class="list-group-item" data-filter="web">web</li>
+        </ul>
+        <div
+          class="row filter mt-4"
+          id="gallery"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <a
+            href="./img/portfolio/portfolio-1.jpg"
+            class="col-md-6 col-lg-4 app mb-3 all"
+            ><img
+              src="./img/portfolio/portfolio-1.jpg"
+              alt=""
+              class="w-100 h-100 p-2 shadow"
+          /></a>
+          <a
+            href="./img/portfolio/portfolio-2.jpg"
+            class="col-md-6 col-lg-4 photo mb-3 all"
+            ><img
+              src="./img/portfolio/portfolio-2.jpg"
+              alt=""
+              class="w-100 h-100 p-2 shadow"
+          /></a>
+          <a
+            href="./img/portfolio/portfolio-3.jpg"
+            class="col-md-6 col-lg-4 app mb-3 all"
+            ><img
+              src="./img/portfolio/portfolio-3.jpg"
+              alt=""
+              class="w-100 h-100 p-2 shadow"
+          /></a>
+          <a
+            href="./img/portfolio/portfolio-4.jpg"
+            class="col-md-6 col-lg-4 photo mb-3 all"
+            ><img
+              src="./img/portfolio/portfolio-4.jpg"
+              alt=""
+              class="w-100 h-100 p-2 shadow"
+          /></a>
+          <a
+            href="./img/portfolio/portfolio-5.jpg"
+            class="col-md-6 col-lg-4 web mb-3 all"
+            ><img
+              src="./img/portfolio/portfolio-5.jpg"
+              alt=""
+              class="w-100 h-100 p-2 shadow"
+          /></a>
+          <a
+            href="./img/portfolio/portfolio-6.jpg"
+            class="col-md-6 col-lg-4 web mb-3 all"
+            ><img
+              src="./img/portfolio/portfolio-6.jpg"
+              alt=""
+              class="w-100 h-100 p-2 shadow"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- end protfolio -->
+    <!-- contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <span
+            class="title-before text-uppercase mb-3 px-3 text-primary rounded-pill d-inline-block"
+            >contact us</span
+          >
+          <h3 class="display-6">
+            check our <span class="text-primary">contact us</span>
+          </h3>
+          <p class="text-secondary">
+            this app was created by
+            <span class="text-primary">eng/emad ezzat</span> you can contact me
+            by clicking on "contact us" button
+          </p>
+        </div>
+        <div
+          class="row mt-4"
+          data-aos="zoom-out-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="col-lg-6 mb-3">
+            <div class="shadow py-3 text-center">
+              <i
+                class="fa-solid fa-phone text-primary fs-2 rounded-circle d-inline-block p-3"
+                id="icon"
+              ></i>
+              <h5 class="my-3 text-muted">01157412907-01067600261</h5>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 col-xl-3 mb-3">
+            <div class="shadow py-3 text-center">
+              <i
+                class="fa-solid fa-envelope text-primary fs-2 rounded-circle d-inline-block p-3"
+                id="icon"
+              ></i>
+              <h5 class="my-3 text-muted">emadezzat082@gmail.com</h5>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="shadow py-3 text-center">
+              <i
+                class="fa-brands fa-github text-primary fs-2 rounded-circle d-inline-block p-3"
+                id="icon"
+              ></i>
+              <h5 class="my-3 text-muted text-break">
+                https://github.com/emadezzat082
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row mt-4"
+          data-aos="zoom-out-left"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="col-lg-6 mb-3">
+            <iframe
+              class="border-0 shadow p-2"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1705.8192177892936!2d29.963806495070465!3d31.230745080342196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c4d0a0a9c109%3A0x11097be3eafbb2f3!2z2YXYr9ix2LPYqSDZgdmE2YXZhtisINin2YTYpdio2KrYr9in2KbZitipINin2YTZhdi02KrYsdmD2Kk!5e0!3m2!1sar!2seg!4v1712949552529!5m2!1sar!2seg"
+              width="100%"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-6 shadow p-4">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="first name"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-6">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="last name"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="subject"
+              class="form-control my-3"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              class="form-control"
+              placeholder="message"
+            ></textarea>
+            <button class="btn btn-primary mt-3">send message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact -->
+    <!-- footer -->
+    <footer class="bg-section py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+            <div>
+              <h4 class="text-primary text-capitalize">eng/emad ezzat</h4>
+              <p class="text-muted">
+                An enthusiastic and detail-oriented junior frontend developer. I
+                am seeking to utilize my technical skills and expertise to
+                provide value to the employer and contribute to successful
+                projects both today and in the future. I aim to take on new
+                challenges and utilize my coding and debugging skills to develop
+                new features and enhance the overall user experience.
+              </p>
+              <a
+                href="mailto:emadezzat082@gmail.com"
+                class="text-black text-decoration-none"
+                ><b>E-mail:</b>emadezzat082@gmail.com</a
+              >
+              <p><b>phone:</b>01067600261-01157412907</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+            <div>
+              <h4 class="text-primary text-capitalize">useful links</h4>
+              <ul class="list-unstyled ps-3 footer-list">
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+            <div>
+              <h4 class="text-primary text-capitalize">useful links</h4>
+              <ul class="list-unstyled ps-3 footer-list">
+                <li>portfolio</li>
+                <li>portfolio</li>
+                <li>portfolio</li>
+                <li>portfolio</li>
+                <li>portfolio</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+            <div>
+              <h4 class="text-primary text-capitalize">our social networks</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                doloribus possimus, voluptatem nihil molestiae sint!
+              </p>
+              <div class="text-primary fs-2 social">
+                <a href="" class="me-2 fa-brands fa-facebook"></a>
+                <a href="" class="me-2 fa-brands fa-x-twitter"></a>
+                <a href="" class="me-2 fa-brands fa-linkedin"></a>
+                <a href="" class="me-2 fa-brands fa-instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <!-- modal apply -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              application form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Recipient's username"
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2"
+                >@example.com</span
+              >
+            </div>
+
+            <div class="mb-3">
+              <label for="basic-url" class="form-label">Your vanity URL</label>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon3"
+                  >https://example.com/users/</span
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="basic-url"
+                  aria-describedby="basic-addon3 basic-addon4"
+                />
+              </div>
+              <div class="form-text" id="basic-addon4">
+                Example help text goes outside the input group.
+              </div>
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text">$</span>
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Amount (to the nearest dollar)"
+              />
+              <span class="input-group-text">.00</span>
+            </div>
+
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+              />
+              <span class="input-group-text">@</span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Server"
+                aria-label="Server"
+              />
+            </div>
+
+            <div class="input-group">
+              <span class="input-group-text">With textarea</span>
+              <textarea
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary text-capitalize">
+              send application
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal apply -->
+    <!-- modal contact -->
+    <div
+      class="modal fade"
+      id="exampleModalcontact"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>
+              <span class="text-primary">email:</span> emadezzat082@gmail.com
+            </h3>
+            <h3>
+              <span class="text-primary">phone:</span>01157412907-01067600261
+            </h3>
+            <h3>
+              <span class="text-primary text-break">github:</span
+              >https://github.com/emadezzat082
+            </h3>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal contact -->
+    <script src="./js/scrollOut.js"></script>
+    <script src="./js/lightGallery.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
