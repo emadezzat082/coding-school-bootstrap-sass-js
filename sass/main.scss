@@ -1,0 +1,156 @@
+@import "./variables";
+
+body {
+  font-family: cursive;
+  position: relative;
+}
+.nav-link {
+  position: relative;
+  transition: 0.5s;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: $blue;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  &.active,
+  &:hover {
+    color: $blue !important;
+    &::before {
+      width: 100%;
+    }
+  }
+}
+.navbar-toggler {
+  &:focus {
+    box-shadow: none;
+  }
+}
+#header {
+  height: 75vh;
+  background: url("../img/hero-bg.jpg") center;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.45);
+  }
+}
+.bg-section {
+  background-color: #f6f9fe;
+}
+.title-before {
+  background: #e7f1fd;
+}
+.icon-container {
+  width: 70px;
+  height: 70px;
+}
+.progress-bar {
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+}
+.icon-box {
+  .overlay {
+    inset: 0;
+  }
+  & > * {
+    position: relative;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  &:hover {
+    .overlay {
+      top: 0 !important;
+    }
+    & > * {
+      color: #e7f1fd !important;
+    }
+  }
+}
+.slider {
+  background: url("../img/testimonials-bg.jpg") center center/cover;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  #carouselExampleCaptions {
+    height: 350px;
+  }
+  .carousel-item img {
+    width: 150px;
+    height: 150px;
+  }
+}
+.filter {
+  > a {
+    height: 350px;
+    img {
+      object-fit: contain;
+    }
+  }
+}
+.list-group-item {
+  cursor: pointer;
+}
+.hidden-image {
+  display: none;
+}
+.active-image {
+  display: block;
+  animation: 0.8s scale-animation ease-in-out;
+  -webkit-animation: 0.8s scale-animation ease-in-out;
+}
+@keyframes scale-animation {
+  0% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
+#icon {
+  width: 50px;
+  height: 50px;
+  border: 1px dashed;
+}
+.footer-list li {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    border: 5px solid transparent;
+    border-left-color: $blue;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+}
+.social {
+  cursor: pointer;
+}
